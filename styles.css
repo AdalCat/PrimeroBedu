@@ -123,10 +123,6 @@ li {
   align-items: center;
 }
 
-iframe {
-  display: flex;
-  margin: auto;
-}
 
 .explanatory-video {
   display: flex;
@@ -141,7 +137,32 @@ iframe {
 
 .features {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  height: 660px;
+  grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  background-color: #025157;
+}
+
+.features .feature-card {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #000;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.features .feature-card .feature-content {
+  padding: 30px 20px 40px 40px;
+  flex: 2;
+}
+
+.features .feature-card .feature-content > * {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.features .feature-card .feature-content img {
+  width: 50px;
 }
