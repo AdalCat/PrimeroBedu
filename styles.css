@@ -21,9 +21,6 @@ button {
 }
 
 .header {
-  /* margin-top: 40px;
-  margin-left: 20px;
-  margin-right: 20px; */
   margin: 40px 20px 0;
   font-size: 0;
   font-family: sans-serif;
@@ -92,7 +89,6 @@ li {
 }
 
 .publish {
-  /* container styles if any */
   margin-left: 30px;
 }
 
@@ -149,9 +145,7 @@ iframe {
   background-color: #025157;
   padding: 5% 10%;
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr); */
   height: 660px;
-  /* grid-template-rows: repeat(2, 1fr); */
   grid-template: repeat(2, 1fr) / repeat(2, 1fr);
 }
 
@@ -214,12 +208,8 @@ iframe {
   height: 100%;
 }
 
-/** dispositivos móviles en vista viewport (vertical) */
+
 @media (max-width: 575px){
-  /* .navbar,
-  .actions {
-    display: none;
-  } */
 
   .main {
     margin-top: 130px;
